@@ -19,9 +19,10 @@
 
     
 # Latar Belakang
-![alt text](images/tebet.jpeg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 
-[House Price Clustering](https://github.com/habibarrsyd/analyze-suitablity-soil)<br>
+
+[Decision Tree for Analyze suitability soil](https://github.com/habibarrsyd/analyze-suitablity-soil)<br>
 Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di mana aspek seperti drainase, bahan organik, kelembapan, dan pH tanah sangat memengaruhi kesuburan dan produktivitas. Pengelolaan yang buruk terhadap faktor-faktor ini dapat menurunkan kualitas tanah dan hasil panen. Dengan kemajuan teknologi, metode analisis seperti *decision tree* menjadi alat yang efektif untuk mengevaluasi kesesuaian tanah berdasarkan data. Pendekatan ini membantu petani memahami pola dan mengambil keputusan yang tepat untuk meningkatkan kualitas tanah, sehingga mendukung efisiensi dan keberlanjutan pertanian.
 ## Tools
 [`^ kembali ke atas ^`](#)
@@ -31,23 +32,28 @@ Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di 
 - Bahasa : Python Language Programming
 - Text Editor : Google Collaboratory atau Visual Studio Code
 
-### Proses :
-#### Baca Data
+## Proses :
+### Baca Data
 - ![alt text](images/baca_data_rumah.jpg)
-#### Bagi harga dengan integer 1000000 untuk mempermudah pembacaan
+### PREPROCESSING
+#### Lihat Deskripsi Data
 - ![alt text](images/bagi_harga.jpg)
-#### Ambil data yang dapat mewakili populasi yang akan dilakukan klastering
+#### Cek Kekosongan Data
 - ![alt text](images/data_sampel.jpg)
-#### Gunakan elbow method untuk menentukan banyak klaster
+#### Encoding (Ubah Kategorikal jadi Numerikal)
 - ![alt text](images/elbow_method.jpg)
-#### Gunakan Kmeans 4 Klaster
+
+### Analyze
+#### Import dan Aplikasikan Model
 - ![alt text](images/kmeans_4klaster.jpg)
-#### Visualisasi Plot Klaster
+#### Visualisasikan Tree yang Terbentuk
 - ![alt text](images/visualisasi_plot_cluster.jpg)
-#### Tunjukkan klaster terbentuk
+#### Evaluasi Metrik Pengujian
 - ![alt text](images/kaster_terbentuk.jpg)
-#### Data rumah yang sudah ter-klaster
-- ![alt text](images/data_klaster_rumah_fix.jpg)
+
+
+## Conclusion
+Decision Tree bekerja dengan membagi data berdasarkan aturan hierarkis menggunakanfiturfitur tertentu. Pada node awal (root), fitur pertama yang digunakan adalah Drainage Quality. Jika nilai Drainage Quality <= 0.5, semua sampel langsung diklasifikasikan sebagai Not Suitable karena pada node ini entropy bernilai 0.0, yang berarti semua data di cabangtersebut termasuk dalam kelas yang sama. Namun, jika Drainage Quality > 0.5, keputusan dilanjutkanke node berikutnya menggunakan fitur pH Level. Pada tahap ini, jika pHLevel <=5.95, sampel juga diklasifikasikan sebagai Not Suitable (entropy = 0). Sebaliknya, jika pHLevel >5.95, data akan diperiksa lebih lanjut ke level berikutnya. Cabang lebih dalam melibatkan fitur Moisture Content (%). Jika Moisture Content (%) <=34.5, data langsung diklasifikasikan sebagai Not Suitable. Namun, jika nilai ini lebihbesar, model melanjutkan dengan memeriksa fitur Organic Matter (%). Keputusan akhir dibuat di leaf node, di mana setiap sampel diklasifikasikan berdasarkan mayoritas kelas pada datayangmencapai node tersebut. Misalnya, jika Organic Matter (%) <= 3.1, tanah dianggap Suitable, sedangkan jika nilainya lebih besar, tanah tetap diklasifikasikan sebagai Not Suitable. Prosesini memastikan bahwa setiap data baru dapat dipetakan ke dalam kategori yang sesuai secarasistematis.
 
 
 
