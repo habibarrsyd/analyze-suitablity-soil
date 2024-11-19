@@ -35,40 +35,45 @@ Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di 
 ## Proses :
 Baca Data
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/baca_data_soil.jpg" alt="Alt Text" height="150">
 
 PREPROCESSING
 
 Lihat Deskripsi Data
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/deskripsi_data.jpg" alt="Alt Text" height="150">
 
 Cek Kekosongan Data
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/cek_kosong.jpg" alt="Alt Text" height="150">
 
 Encoding (Ubah Kategorikal jadi Numerikal)
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/encode_1.jpg" alt="Alt Text" height="80">
+<img src="images/encode_2.jpg" alt="Alt Text" height="80">
+<img src="images/encode_3.jpg" alt="Alt Text" height="180">
 
-Pisahkan Data Atribut dan 
+Pisahkan Data Atribut dan Target
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/pisahkan_target.jpg" alt="Alt Text" height="150">
 
 Analyze
 Import dan Aplikasikan Model
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/import_model.jpg" alt="Alt Text" height="80">
+<img src="images/aplikasikan_model.jpg" alt="Alt Text" height="150">
 
 Visualisasikan Tree yang Terbentuk
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/tree_terbentuk.jpg" alt="Alt Text" height="200">
 
 Evaluasi Metrik Pengujian
 
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+<img src="images/evaluasi_metriks.jpg" alt="Alt Text" height="150">
 
 Uji Data Baru
+
+<img src="images/uji_data.jpg" alt="Alt Text" height="150">
 
 
 ## Conclusion
