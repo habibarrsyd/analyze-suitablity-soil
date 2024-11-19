@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/habibarrsyd/tebet-house-price-clustering/">
-    <img src="images/upper-house.jpg" alt="House Pricing Visualization" height="130">
+    <img src="images/uji_tanah.jpg" alt="Uji Kelayakan Tanah" height="130">
   </a>
 </p>
 
 <p align="center">
-  <img src="images/r_lang.png" alt="R-Language" height="20">
-  <img src="images/rstud_belompng-removebg-preview.png" alt="GitHub R-Studio" height="20">
-  <img src="images/vscode.png" alt="vscode-picture" height="20">
+  <img src="images/python_picture.png" alt="Py" height="60">
+  <img src="images/collab_blom_png-removebg-preview.png" alt="Google Collab" height="80">
+  <img src="images/vscode.png" alt="vscode-picture" height="60">
 
   </p>
 
