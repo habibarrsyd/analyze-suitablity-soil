@@ -21,9 +21,8 @@
 # Latar Belakang
 ![alt text](images/tebet.jpeg)
 
-[House Price Clustering](https://github.com/habibarrsyd/tebest-hous-price-clustering)<br>
-Daerah DKI Jakarta memiliki peranan yang sangat penting dalam menopang roda pergerakan ekonomi, sehingga menyebabkan ekspansi pemanfaatan ruang pada daerah ini. Akibatnya seiring bertambahnya tahun lahan tersedia semakin sedikit, harga tanah per meter persegi juga semakin tinggi. Dengan demikian untuk orang yang ingin mencari tempat tinggal di daerah ini diperlukan adanya referensi agar biaya yang mereka sediakan mendapatkan sepantasnya tempat tinggal. Dengan adanya klastering terhadap rumah-rumah yang dijual dan dengan metode k-means maka langkah ini dapat memberi solusi untuk orang yang ingin mencari tempat tinggal di daerah ini.
-
+[House Price Clustering](https://github.com/habibarrsyd/analyze-suitablity-soil)<br>
+Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di mana aspek seperti drainase, bahan organik, kelembapan, dan pH tanah sangat memengaruhi kesuburan dan produktivitas. Pengelolaan yang buruk terhadap faktor-faktor ini dapat menurunkan kualitas tanah dan hasil panen. Dengan kemajuan teknologi, metode analisis seperti *decision tree* menjadi alat yang efektif untuk mengevaluasi kesesuaian tanah berdasarkan data. Pendekatan ini membantu petani memahami pola dan mengambil keputusan yang tepat untuk meningkatkan kualitas tanah, sehingga mendukung efisiensi dan keberlanjutan pertanian.
 ## Tools
 [`^ kembali ke atas ^`](#)
 
