@@ -34,22 +34,25 @@ Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di 
 
 ## Proses :
 ### Baca Data
-- ![alt text](images/baca_data_rumah.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 ### PREPROCESSING
 #### Lihat Deskripsi Data
-- ![alt text](images/bagi_harga.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 #### Cek Kekosongan Data
-- ![alt text](images/data_sampel.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 #### Encoding (Ubah Kategorikal jadi Numerikal)
-- ![alt text](images/elbow_method.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+### Pisahkan Data Atribut dan Target
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 
 ### Analyze
 #### Import dan Aplikasikan Model
-- ![alt text](images/kmeans_4klaster.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 #### Visualisasikan Tree yang Terbentuk
-- ![alt text](images/visualisasi_plot_cluster.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
 #### Evaluasi Metrik Pengujian
-- ![alt text](images/kaster_terbentuk.jpg)
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+#### Uji Data Baru
 
 
 ## Conclusion
