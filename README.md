@@ -33,26 +33,42 @@ Kualitas tanah adalah faktor penting dalam mendukung keberhasilan pertanian, di 
 - Text Editor : Google Collaboratory atau Visual Studio Code
 
 ## Proses :
-### Baca Data
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
-### PREPROCESSING
-#### Lihat Deskripsi Data
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
-#### Cek Kekosongan Data
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
-#### Encoding (Ubah Kategorikal jadi Numerikal)
-<img src="images/tanah.jpeg" alt="Alt Text" height="150">
-### Pisahkan Data Atribut dan Target
+Baca Data
+
 <img src="images/tanah.jpeg" alt="Alt Text" height="150">
 
-### Analyze
-#### Import dan Aplikasikan Model
+PREPROCESSING
+
+Lihat Deskripsi Data
+
 <img src="images/tanah.jpeg" alt="Alt Text" height="150">
-#### Visualisasikan Tree yang Terbentuk
+
+Cek Kekosongan Data
+
 <img src="images/tanah.jpeg" alt="Alt Text" height="150">
-#### Evaluasi Metrik Pengujian
+
+Encoding (Ubah Kategorikal jadi Numerikal)
+
 <img src="images/tanah.jpeg" alt="Alt Text" height="150">
-#### Uji Data Baru
+
+Pisahkan Data Atribut dan 
+
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+
+Analyze
+Import dan Aplikasikan Model
+
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+
+Visualisasikan Tree yang Terbentuk
+
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+
+Evaluasi Metrik Pengujian
+
+<img src="images/tanah.jpeg" alt="Alt Text" height="150">
+
+Uji Data Baru
 
 
 ## Conclusion
